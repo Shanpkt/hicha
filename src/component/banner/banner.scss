@@ -31,11 +31,22 @@ html, body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @media (max-width: 480px) {  
+            /* Styles for tablets & large phones */
+            width: 250px;
+            height: 250px;
+          }
     .logoRing_inner{
         width: 400px;
         height: 400px;
         border-radius:50% ;
         background-color: #FF0092;
+        // Small devices (large phones)
+@media (max-width: 480px) {  
+    /* Styles for tablets & large phones */
+    width: 200px;
+    height: 200px;
+  }
         
     }
     }
