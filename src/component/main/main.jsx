@@ -13,7 +13,9 @@ function Main() {
 
         <div>
         <div className='top_bar'>
-          <button onClick={handel}>click</button>
+         
+          <img onClick={handel} src='/menu.png'/>
+          <img src="/message.png"/>
         </div>
         <div className='profile_continer'>
         <div className='profile'>
