@@ -16,6 +16,10 @@ function Main() {
          
           <img onClick={handel} src='/menu.png'/>
           <img src="/message.png"/>
+          <div className='searchBox'>
+            <input/>
+            <button></button>
+          </div>
         </div>
         <div className='profile_continer'>
         <div className='profile'>
