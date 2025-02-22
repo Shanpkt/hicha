@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./banner.scss"
 function Banner() {
+    useEffect(()=>{
+      
+        setTimeout(()=>{
+     
+        },1000)
+
+    },[])
   return (
     <div className="banner_continer">
       
