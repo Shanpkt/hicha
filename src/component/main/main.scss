@@ -10,31 +10,48 @@
 
 .profile_continer{
     display: flex;
+    border: 1px solid;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    @media (max-width: 480px) {  
+        /* Styles for tablets & large phones */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+   
     .profile{
-        width: 150px;
-        height: 150px;
+        width: 100%;
+        height: 250px;
        // border: 1px solid;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+          label{
+            position: absolute;
+            bottom: 0px;
+            color: white;
+            font-size: 20px;
+            background-color: black;
+            width: 100%;
+          }
         .profile_iMG{
-            width: 100px;
-            height: 100px;
+            width: 100%;
+            height: 100%;
             background-color: brown;
-            border-radius: 50%;
+           // border-radius: 50%;
             position: relative;
 
             .profile_pic{
                 width: 100%;
                 height: 100%;
                 overflow: hidden;
-                border-radius: 50%;
+               // border-radius: 50%;
             }
            
         }
