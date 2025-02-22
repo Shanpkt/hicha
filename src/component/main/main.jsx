@@ -15,7 +15,12 @@ function Main() {
             <div className='profile_iMG'></div>
             <label>Arun,29</label>
         </div>
+        <div className='profile'>
+            <div className='profile_iMG'></div>
+            <label>Arun,29</label>
         </div>
+        </div>
+       
     </div>
   )
 }
